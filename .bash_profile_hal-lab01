@@ -1,0 +1,26 @@
+#//tktmdfd150820 caffe install
+export PYTHONPATH=~/src/caffe/python/:$PYTHONPATH
+#tktmdfd150820 caffe install//
+
+#//tktmdfd151006 cuda install for MNIST_CNN
+export CUDA_ROOT=/usr/local/cuda-7.5
+export CUDA_PATH=$CUDA_ROOT
+export PATH=$PATH:/usr/local/cuda-7.5/bin
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64
+export CPATH=/usr/local/cuda-7.5/include
+export CUDA_INC_DIR=/usr/local/cuda-7.5/bin:$CUDA_INC_DIR
+#tktmdfd151006 cuda install for MNIST_CNN //
+
+#//tktmdfd151006 python Theano GPU 
+alias pythongpu='THEANO_FLAGS=mode=FAST_RUN,device=cpu,floatX=float32 python'
+#tktmdfd151006 python Theano GPU //
+
+#//tktmdfd151217 cudnn install for Chainer
+export LD_LIBRARY_PATH=/home/takata/cudnn/cuda/lib64:$LD_LIBRARY_PATH
+export CPATH=/home/takata/cudnn/cuda/include:$CPATH
+export LIBRARY_PATH=$LD_LIBRARY_PATH:$LIBRARY_PATH 
+#tktmdfd151217 cudnn install for Chainer //
+
+#//tktmdfd160101 config USB-mic card no.
+export ALSADEV="plughw:0,0"
+#tktmdfd160101 config USB-mic card no.//
