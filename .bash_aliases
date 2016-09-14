@@ -33,3 +33,10 @@ function rmrm() {
         fi
 }
 alias ff='xdg-open'
+
+### tktmdfd160914 for colordiff
+if [[ -x `which colordiff` ]]; then
+  alias diff='colordiff -u'
+else
+  alias diff='diff -u'
+fi

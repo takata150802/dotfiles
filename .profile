@@ -28,4 +28,5 @@ if [ $HOSTNAME = "cognitive0" ]; then
     . "$HOME/.bash_profile_cognitive0"
 fi
 
-
+### tktmdfd160914 for colordiff
+export LESS=' -R'
