@@ -114,3 +114,13 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+if [ $HOSTNAME = "takata-hal-lab01" ]; then
+    . "$HOME/.bashrc_hal-lab01"
+fi
+if [ $HOSTNAME = "cognitive0" ]; then
+    . "$HOME/.bashrc_cognitive0"
+fi
+if [ $HOSTNAME = "e7xeon3" ]; then
+    . "$HOME/.bashrc_e7xeon3"
+fi

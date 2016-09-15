@@ -1,0 +1,2 @@
+alias sshVM='ssh -p 2222 localhost -X ' 
+alias vcd2saif-='vcd2saif -input dump.vcd -output neurocore.saif' 

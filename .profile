@@ -21,12 +21,15 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+### tktmdfd160914 for colordiff
+export LESS=' -R'
+
 if [ $HOSTNAME = "takata-hal-lab01" ]; then
     . "$HOME/.bash_profile_hal-lab01"
 fi
 if [ $HOSTNAME = "cognitive0" ]; then
     . "$HOME/.bash_profile_cognitive0"
 fi
-
-### tktmdfd160914 for colordiff
-export LESS=' -R'
+if [ $HOSTNAME = "e7xeon3" ]; then
+    . "$HOME/.bash_profile_e7xeon3"
+fi
