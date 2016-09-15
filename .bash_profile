@@ -33,3 +33,5 @@ fi
 if [ $HOSTNAME = "e7xeon3" ]; then
     . "$HOME/.bash_profile_e7xeon3"
 fi
+
+echo "HOGEEEEEEEEEEEEEEE"
