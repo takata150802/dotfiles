@@ -30,8 +30,6 @@ fi
 if [ $HOSTNAME = "cognitive0" ]; then
     . "$HOME/.bash_profile_cognitive0"
 fi
-if [ $HOSTNAME = "e7xeon3" ]; then
+if [ $HOSTNAME = "e7xeon3.hal.ipc.i.u-tokyo.ac.jp" ]; then
     . "$HOME/.bash_profile_e7xeon3"
 fi
-
-echo "HOGEEEEEEEEEEEEEEE"
