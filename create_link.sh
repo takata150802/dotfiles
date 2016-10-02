@@ -8,6 +8,8 @@ fi
 
 if [ $HOSTNAME = "takata-hal-lab01" ]; then
     ln -s .conkyrc_hal-lab01 .conkyrc
+elif [ $HOSTNAME = "takata-hal-lab02" ]; then
+    ln -s .conkyrc_hal-lab02 .conkyrc
 elif [ $HOSTNAME = "cognitive0"  ]; then
     ln -s .conkyrc_cognitive0 .conkyrc
 else 

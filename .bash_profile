@@ -27,6 +27,9 @@ export LESS=' -R'
 if [ $HOSTNAME = "takata-hal-lab01" ]; then
     . "$HOME/.bash_profile_hal-lab01"
 fi
+if [ $HOSTNAME = "takata-hal-lab02" ]; then
+    . "$HOME/.bash_profile_hal-lab02"
+fi
 if [ $HOSTNAME = "cognitive0" ]; then
     . "$HOME/.bash_profile_cognitive0"
 fi
