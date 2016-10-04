@@ -40,3 +40,8 @@ if [[ -x `which colordiff` ]]; then
 else
   alias diff='diff -u'
 fi
+
+function pandocmk2html() {
+    pandoc -f markdown -t html5  --standalone --self-contained --mathml $1 -o $1.html
+    return 0
+}
