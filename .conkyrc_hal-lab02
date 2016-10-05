@@ -94,9 +94,9 @@ ${color #d8e698}Disk IO : ${color #eae5e3}
   /      Write ${alignr}${diskio_write /dev/sda}/s
   ${color #ffffff}${diskiograph_read /dev/sda 20,190 fef4f4 eebbcb}${alignr}${color #ffffff}${diskiograph_write /dev/sda 20,190 fef4f4 eebbcb}
 ${color #d8e698}${stippled_hr}
-${color #d8e698}Network information :${color #eae5e3}${alignr}(current IP:${addr eth0})
-Down speed ${downspeedgraph eth0 20,145} ${downspeed eth0}/s${alignc}${alignr}Down total ${totaldown eth0}
-Up   speed ${upspeedgraph eth0 20,145} ${upspeed eth0}/s${alignc}${alignr}Up total ${totalup eth0}
+${color #d8e698}Network information :${color #eae5e3}${alignr}(current IP:${addr wlan0})
+Down speed ${downspeedgraph wlan0 20,145} ${downspeed wlan0}/s${alignc}${alignr}Down total ${totaldown wlan0}
+Up   speed ${upspeedgraph wlan0 20,145} ${upspeed wlan0}/s${alignc}${alignr}Up total ${totalup wlan0}
 ${color #d8e698}${stippled_hr}
 ${color #d8e698}Name                PID    CPU%    MEM%     TIME
   ${color #eae5e3}${top name 1} ${top pid 1}  ${top cpu 1}  ${top mem 1}  ${top time 1}
