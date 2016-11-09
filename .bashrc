@@ -116,11 +116,14 @@ if ! shopt -oq posix; then
 fi
 
 if [ $HOSTNAME = "takata-hal-lab01" ]; then
-    . "$HOME/.bashrc_hal-lab01"
+    source "$HOME/dotfiles/bashrc_hal-lab01"
+fi
+if [ $HOSTNAME = "takata-hal-lab02" ]; then
+    source "$HOME/dotfiles/bashrc_hal-lab02"
 fi
 if [ $HOSTNAME = "cognitive0" ]; then
-    . "$HOME/.bashrc_cognitive0"
+    source "$HOME/dotfiles/bashrc_cognitive0"
 fi
 if [ $HOSTNAME = "e7xeon3" ]; then
-    . "$HOME/.bashrc_e7xeon3"
+    source "$HOME/dotfiles/bashrc_e7xeon3"
 fi

@@ -25,14 +25,14 @@ fi
 export LESS=' -R'
 
 if [ $HOSTNAME = "takata-hal-lab01" ]; then
-    . "$HOME/.bash_profile_hal-lab01"
+    source "$HOME/dotfiles/bash_profile_hal-lab01"
 fi
 if [ $HOSTNAME = "takata-hal-lab02" ]; then
-    . "$HOME/.bash_profile_hal-lab02"
+    source "$HOME/dotfiles/bash_profile_hal-lab02"
 fi
 if [ $HOSTNAME = "cognitive0" ]; then
-    . "$HOME/.bash_profile_cognitive0"
+    source "$HOME/dotfiles/bash_profile_cognitive0"
 fi
 if [ $HOSTNAME = "e7xeon3.hal.ipc.i.u-tokyo.ac.jp" ]; then
-    . "$HOME/.bash_profile_e7xeon3"
+    source "$HOME/dotfiles/bash_profile_e7xeon3"
 fi
