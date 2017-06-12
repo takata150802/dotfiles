@@ -12,6 +12,8 @@ elif [ $HOSTNAME = "takata-hal-lab02" ]; then
     ln -fs conkyrc_hal-lab02 .conkyrc
 elif [ $HOSTNAME = "cognitive0"  ]; then
     ln -fs conkyrc_cognitive0 .conkyrc
+elif [ $HOSTNAME = "ryotakata-ubuntu00"  ]; then
+    ln -fs conkyrc_ryotakata-ubuntu00 .conkyrc
 else 
     echo "Please register your host name & .conkyrc!"
 fi

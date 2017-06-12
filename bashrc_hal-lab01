@@ -1,7 +1,0 @@
-#//tktmdfd161105 for pyenv & virtualenv
-export PYENV_ROOT=$HOME/.pyenv
-export PATH=$PYENV_ROOT/bin:$PATH
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-#tktmdfd161105 for pyenv & virtualenv//
-

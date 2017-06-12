@@ -36,3 +36,6 @@ fi
 if [ $HOSTNAME = "e7xeon3.hal.ipc.i.u-tokyo.ac.jp" ]; then
     source "$HOME/dotfiles/bash_profile_e7xeon3"
 fi
+if [ $HOSTNAME = "ryotakata-ubuntu00" ]; then
+    source "$HOME/dotfiles/bash_profile_ryotakata-ubuntu00"
+fi

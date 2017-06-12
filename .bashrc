@@ -127,3 +127,6 @@ fi
 if [ $HOSTNAME = "e7xeon3" ]; then
     source "$HOME/dotfiles/bashrc_e7xeon3"
 fi
+if [ $HOSTNAME = "ryotakata-ubuntu00" ]; then
+    source "$HOME/dotfiles/bashrc_ryotakata-ubuntu00"
+fi
