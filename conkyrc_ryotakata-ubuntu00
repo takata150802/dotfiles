@@ -63,13 +63,13 @@ background yes
 gap_x 50
 gap_y 50
 double_buffer yes
-maximum_width 2201 2201
-minimum_size 2200 2200
+maximum_width 1201 1201
+minimum_size 400 400
 own_window_transparent yes
 own_window_argb_value 0 
 override_utf8_locale yes
 use_xft yes
-xftfont TakaoGothic:style=Regular:size=14
+xftfont TakaoGothic:style=Regular:size=12
 #11
 
 
@@ -88,15 +88,19 @@ ${color #d8e698}${stippled_hr}
 ${color #d8e698}File systems : ${color #eae5e3}
   /     ${fs_used /}/${fs_size /} ${fs_bar 5 /}
   /myStorage ${fs_used /home/ryotakata/myStorage}/${fs_size /home/ryotakata/myStorage} ${fs_bar 5 /home/ryotakata/myStorage}
+  /2THDD ${fs_used /media/ryotakata/HDD2TBSATA3}/${fs_size /media/ryotakata/HDD2TBSATA3} ${fs_bar 5 /media/ryotakata/HDD2TBSATA3}
 ${color #d8e698}${stippled_hr}${color #eae5e3}
 ${color #d8e698}Disk IO : ${color #eae5e3}
-  /      Read  ${alignr}${diskio_read /dev/sdc1}/s
-  /      Write ${alignr}${diskio_write /dev/sdc1}/s
+  /   Read  ${alignr}${diskio_read /dev/sdc1}/s
+  /   Write ${alignr}${diskio_write /dev/sdc1}/s
+  /myStorage   Read  ${alignr}${diskio_read /dev/sdid}/s
+  /myStorage   Write ${alignr}${diskio_write /dev/sdd}/s
   ${color #ffffff}${diskiograph_read /dev/sdc1 20,190 fef4f4 eebbcb}${alignr}${color #ffffff}${diskiograph_write /dev/sdc1 20,190 fef4f4 eebbcb}
+  ${color #ffffff}${diskiograph_read /dev/sdd 20,190 fef4f4 eebbcb}${alignr}${color #ffffff}${diskiograph_write /dev/sdd 20,190 fef4f4 eebbcb}
 ${color #d8e698}${stippled_hr}
 ${color #d8e698}Network information :${color #eae5e3}${alignr}(current IP:${addr eth0})
-Down speed ${downspeedgraph eth0 20,145} ${downspeed eth0}/s${alignc}${alignr}Down total ${totaldown eth0}
-Up   speed ${upspeedgraph eth0 20,145} ${upspeed eth0}/s${alignc}${alignr}Up total ${totalup eth0}
+Down speed ${downspeedgraph eth0 20,100} ${downspeed eth0}/s${alignc}${alignr}Down total ${totaldown eth0}
+Up   speed ${upspeedgraph eth0 20,100} ${upspeed eth0}/s${alignc}${alignr}Up total ${totalup eth0}
 ${color #d8e698}${stippled_hr}
 ${color #d8e698}Name                PID    CPU%    MEM%     TIME
   ${color #eae5e3}${top name 1} ${top pid 1}  ${top cpu 1}  ${top mem 1}  ${top time 1}
