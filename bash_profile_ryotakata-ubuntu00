@@ -1,2 +1,2 @@
 echo "bash_profile_ryotakata-ubuntu00"
-export PATH=${HOME}/myStorage/local:$PATH
+export PATH=${HOME}/myStorage/local/bin:$PATH
