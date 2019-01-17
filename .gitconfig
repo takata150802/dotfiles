@@ -1,6 +1,10 @@
 [alias]
     lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
     lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    df = diff --diff-algorithm=minimal
+
+[core]
+	editor = vim -c \"set fenc=utf-8\"
 
 [user]
 	email = takata@hal.ipc.i.u-tokyo.ac.jp
