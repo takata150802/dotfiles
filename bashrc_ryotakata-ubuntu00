@@ -9,3 +9,15 @@ eval "$(pyenv init -)"
 export PATH="/usr/local/cuda/bin:$PATH"
 export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
 
+
+### 190117 Installed PECO
+export PATH=$HOME/.local/bin:${PATH}
+#### select-history C-r
+source ${HOME}/dotfiles/peco/peco-select-history.sh
+#### select-tmux-session C-t
+source ${HOME}/dotfiles/peco/peco-select-tmux-session.sh
+#### snippets C-p
+source ${HOME}/dotfiles/peco/peco-snippets.sh
+#### others
+source ${HOME}/dotfiles/peco/peco-others.sh
+

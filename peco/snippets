@@ -1,0 +1,2000 @@
+p7zip e ubuntu-ja-14.04-desktop-amd64-vhd.zip 
+p7zip -D  ubuntu-ja-14.04-DDDDDDDDdesktop-amd64-vhd.zip 
+p7zip -d ubuntu-ja-14.04-desktop-amd64-vhd.zip 
+p7zip d ubuntu-ja-14.04-desktop-amd64-vhd.zip 
+p7zip 
+p7zip -h
+p7zip d ubuntu-ja-14.04-desktop-amd64-vhd.zip 
+p7zip -d ubuntu-ja-14.04-desktop-amd64-vhd.zip 
+mv ubuntu-ja-14.04-desktop-amd64-vhd.zip ubuntu-ja-14.04-desktop-amd64-vhd.zip.7z
+p7zip -d ubuntu-ja-14.04-desktop-amd64-vhd.zip 
+p7zip -d ubuntu-ja-14.04-desktop-amd64-vhd.zip.7z 
+ll
+mv ubuntu-ja-14.04-desktop-amd64-vhd.zip.7z ubuntu-ja-14.04-desktop-amd64-vhd.7z
+p7zip -d ubuntu-ja-14.04-desktop-amd64-vhd.7z 
+l
+cat seven.txt 
+ll
+p7zip 
+sudo apt-get 
+sudo apt-get  remove p7zip 
+pz7ip
+p7zip 
+7zip
+p7
+zip
+7z
+mv ubuntu-ja-14.04-desktop-amd64-vhd.7z ubuntu-ja-14.04-desktop-amd64-vhd.zip
+7z x ubuntu-ja-14.04-desktop-amd64-vhd.zip 
+ll
+ll ubuntu-ja-14.04-desktop-amd64
+pip list
+pip ls
+ssh localhost
+ssh localhost -p 2222
+exit
+cd dotfiles/
+git diff
+l
+cd ..
+l
+cd
+l
+ll .conkyrc 
+ll | pecio
+ll | peco
+l
+ll
+exit
+ssh localhost -p 2222
+exit
+ll
+tmux
+exit
+cp bk.ubuntu00.ova data
+diff bk.ubuntu00.ova data
+exit
+l
+cd myStorage
+l
+ll
+cd VMware_Vapliance/
+l
+ll
+tar -zcvf data.tar.gz ubuntu00.ova 
+mv ubuntu00.ova bk.ubuntu00.ova 
+ll
+tar -zxvf data.tar.gz 
+ll
+diff ubuntu00.ova bk.ubuntu00.ova 
+cd $(dirname $0)
+cd 
+cd Downloads/
+l
+ll me
+ll memo 
+ll -h memo 
+head me
+head memo 
+strings  memo 
+ll
+l
+mv memo memo.zip
+strings memo.zip 
+ll
+exit
+cd myStorage/wapVerilog/
+l
+touch vsrc/__init__.py
+exit
+cd myStorage
+l
+cd wapVerilog/
+l
+cd vsrc/
+l
+python Vsrc.py
+vim is_verilog_reserved_word.py
+exit
+cd
+l
+git init
+git add parse.verilog.py 
+cd vsrc/
+l
+git add Vsrc.py
+git add __init__.py is_verilog_reserved_word.py constructor_funcs.py
+ll
+cd ..
+git commit -a -m "first commit"
+git lga
+git log
+git remote add origin https://github.com/takata150802/wapVerilog.git
+git push -u origin master
+exit
+cp top.v m0.v
+vim m0.v 
+vim top.v
+cp top.v m0.v
+vim m
+vim m0.v 
+cp m0.v m1.v
+vim top.v
+vim m0.v m1.v 
+python parse.verilog.py 
+python parse.verilog.py top top.v
+python parse.verilog.py top top.v m0.v 
+python parse.verilog.py top top.v m0.v  m1.v 
+python parse.verilog.py  top top.v
+python parse.verilog.py  top top.v m0.v m1.v 
+python parse.verilog.py  top top.v m0.v m1.v  | column -s, -t
+python parse.verilog.py  top top.v m0.v m1.v  | column -s, -t | sort
+git push origin master
+git lga
+git log
+git diff
+git status
+python parse.verilog.py  top top.v
+python parse.verilog.py  top top.v m1.v 
+python parse.verilog.py  top top.v m1.v m0.v 
+python parse.verilog.py  top top.v  m0.v 
+git status
+git add m0.v m1.v top.v vsrc/*
+git status
+cat main.sh 
+vim *.v
+l
+git commit -a -m "update"
+git lga
+git log
+git push origin master
+exit
+git clone https://github.com/takata150802/wapVerilog.git ./tmp
+git clone https://github.com/takata150802/wapVerilog.git ./wap
+cd wap/
+l
+python parse.verilog.py 
+python parse.verilog.py  m0.v 
+python parse.verilog.py  m0.v  m1.v 
+python parse.verilog.py m0  m0.v  m1.v 
+python parse.verilog.py top top.v m0.v 
+python parse.verilog.py top top.v m1.v 
+python parse.verilog.py top top.v m1.v  m0.v 
+l
+cd ..
+rm -rf wap/
+exit
+l
+cd
+l
+vim .bash_aliases 
+cd dotfiles/
+git diff
+git log
+gut lga
+git log
+git diff
+git log
+git diff
+git status
+vim bash_profile_ryotakata-ubuntu00 
+git diff
+git log
+git log -a
+git commit "update bash_profile_ryotakata-ubuntu00"
+git commit -a "update bash_profile_ryotakata-ubuntu00"
+git commit -a -m "update bash_profile_ryotakata-ubuntu00"
+git diff
+git log
+git pull origin master
+git log
+git pull origin master
+cd
+l
+vim .gitconfig
+cd dotfiles/
+git lga
+vim  .bash_aliases 
+source .bashrc 
+colcsv
+exit
+grep "7:0" *.v
+grep -e  "7:0" -e "w0" *.v
+python parse.verilog.py top top.v m1.v  m0.v 
+colcsv top_tabel.csv 
+vim top.v m0.v  m1.v 
+python parse.verilog.py top top.v m1.v  m0.v 
+colcsv top_tabel.csv 
+git diff
+git checkout vsrc/Wapvsrc.py
+git diff
+python parse.verilog.py top top.v m1.v  m0.v ; colcsv top_tabel.csv 
+exit
+colcsv top_tabel.csv 
+vim m0.v m1.v top.v
+vim top.v m0.v m1.v 
+rm top_tabel.csv 
+colcsv top_tabel.csv 
+rm top
+rm top_tabel.csv 
+colcsv top_tabel.csv
+vim m0.v 
+colcsv top_tabel.csv
+vim top.v m1.v 
+python top top.v m0.v m1.v 
+python parse.verilog.py top top.v m0.v m1.v 
+colcsv top_tabel.csv
+vim m0.v 
+vim top.v m0.v  m1.v 
+exit
+cd myStorage/wapVerilog/
+;
+git diff
+git lga
+git log
+git pull origin master
+ll
+git log
+l
+ll
+git branch 
+git branch dev-range
+l
+git checkout dev-range 
+l
+ll
+ll -rt
+vim top
+vim top_tabel.csv 
+colcsv top_tabel.csv 
+ll
+tmux
+git diff
+q
+exit
+ll
+l
+cd myStorage
+l
+cd wapVerilog/
+l
+git pull origin master
+git lga
+python parse.verilog.py top top.v m0.v m1.v 
+ll
+ll -rt
+rm top_tabel.csv 
+python parse.verilog.py top top.v m0.v m1.v 
+ll
+vim top
+vim top_tabel.csv 
+git log
+git pull origin master
+git lga
+git remote -v
+git pull origin master
+git push  origin master
+git log
+git remote -v
+git log --patch
+exit
+cd
+cd myStorage
+cd wapVerilog/
+git log --patch-with-stat
+git log --merges
+git log vsrc/Vsrc.py
+git log vsrc/Wapvsrc.py
+git diff vsrc/Vsrc.py
+git diff vsrc/Vsrc.py HEAD~~
+git diff vsrc/Vsrc.py --  HEAD~~
+git diff  --  HEAD~~
+git diff  --  HEAD^3
+git diff    HEAD^3
+git diff    HEAD^3 
+git diff    HEAD^3 -- vsrc/Vsrc.py
+git diff    HEAD~~ -- vsrc/Vsrc.py
+git log  -- vsrc/Vsrc.py
+git log  -patch  vsrc/Vsrc.py
+git log  --patch  vsrc/Vsrc.py
+sar
+ps auxww
+ps auxww | less
+rpm
+uname
+uname -a
+route
+traceroute -n 8.8.8.8
+w
+who
+w
+wall
+wall 
+exit
+git init
+l
+git add ./*
+git diff
+git add vsrc/__init__.py 
+cd vsrc/
+l
+git add constructor_funcs.py is_verilog_reserved_word.py Vmodule.py
+cd ..
+git commit -a -m "first commit"
+git log
+l
+python parse.verilog.py  top top.v  m0.v  m1.v 
+ll
+git diff
+cat top
+cat top_tabel.csv 
+autoexec
+ll ~/.local/
+ll ~/local
+l
+automake
+git diff
+git commit -a -m "add member:dict_module @ class Vmodule"
+grep trans_vsrc_to_ls2d vsrc/
+grep trans_vsrc_to_ls2d vsrc/*
+cat top_tabel.csv 
+grep trans_vsrc_to_ls2d vsrc/*
+python parse.verilog.py  top top.v  m0.v  m1.v 
+git diff
+git diff --stat
+git status
+git add vsrc/Wire.py
+git add vsrc/reptn_funcs.py
+git status
+git status | grep ".py "
+git status | grep ".py"
+git commit -a -m "backup"
+l
+git log
+python parse.verilog.py  top top.v  m0.v  m1.v 
+ll
+python parse.verilog.py  top top.v 
+python parse.verilog.py  top top.v m1,v
+python parse.verilog.py  top top.v m1.v
+python parse.verilog.py  top top.v m1.v m0.v
+python parse.verilog.py  top top.v m1.v m0.v m1.v
+python parse.verilog.py  top top.v m1.v m0.v m0.v
+python parse.verilog.py  top top.v m1.v m
+python parse.verilog.py  top top.v m1.v 
+exit
+cdmy
+cd myStorage
+cd wapVerilog/
+l
+git diff
+./main.sh 
+git pull origin master 
+git status
+python parse.verilog.py top top.v m0.v m1.v 
+exit
+cd myStorage
+l
+cp wrapVerilog/* wapVerilog/
+cp -r  wrapVerilog/* wapVerilog/
+cd wapVerilog/
+l
+git diff
+git diff --stat
+git status
+git branch dev
+git add vsrc/Vmodule.py vsrc/Wire.py vsrc/reptn_funcs.
+git status
+git add top_tabel.csv 
+git commit -a -m "refactering"
+git lga
+git push origin dev-range 
+git lga
+exit
+l
+cd
+l
+ll 170617/
+ll
+cd
+l
+cd tmp/
+lk
+l
+cd 
+cd myStorage
+l
+cd local/
+l
+cd bin/
+l
+cd ../mis
+cd ../
+l;
+cd ..
+cd mi
+cd misc/
+l
+cat main 
+l
+./run.sh 
+cat run.sh 
+ll
+vim tesh_bench.v 
+./run.sh 
+rm main 
+./run.sh 
+vim tesh_bench.v 
+cat run.sh 
+./run.sh tesh_bench.v 
+ll
+cat run.sh 
+ll
+vun expectation.v 
+vim expectation.v 
+./run.sh 
+ll
+rm main 
+./run.sh 
+l
+ll
+l
+git diff
+git checkout tesh_bench.v
+git checkout expectation.v
+git diff
+exit
+cd myStorage
+l
+cd wrapVerilog/
+l
+python parse.verilog.py top top.v m0.v m1.v 
+python parse.verilog.py top top.v m0.v 
+python parse.verilog.py top top.v m0.v m1.v 
+python parse.verilog.py top top.v m0.v 
+python parse.verilog.py top top.v m0.v m1.v 
+python parse.verilog.py top top.v m0.v m1.v | grep out0
+grep "get_list_csv" vsrc/*
+colcsv
+colcsv top_tabel.csv 
+colcsv top_tabel.csv | grep "put"
+colcsv top_tabel.csv | grep "put" | grep "i0:m0.i1"
+colcsv top_tabel.csv | grep "i0:m0.i1"
+colcsv top_tabel.csv 
+vim top_tabel.csv 
+
+vim top_tabel.csv 
+colcsv top_tabel.csv 
+python parse.verilog.py top top.v m0.v m1.v | grep out0
+python parse.verilog.py top top.v m0.v m1.v 
+colcsv top_tabel.csv 
+python parse.verilog.py top top.v m0.v m1.v 
+colcsv top_tabel.csv 
+python parse.verilog.py top top.v m0.v m1.v 
+colcsv top_tabel.csv 
+python parse.verilog.py top top.v m0.v m1.v 
+colcsv top_tabel.csv 
+git diff
+colcsv top_tabel.csv 
+python parse.verilog.py top top.v m0.v m1.v 
+python parse.verilog.py top top.v m0.v m1.v 2> /dev/null
+colcsv top_tabel.csv 
+python parse.verilog.py top top.v m0.v m1.v m2.v2> /dev/null
+python parse.verilog.py top top.v m0.v m1.v m2.v 2> /dev/null
+python parse.verilog.py top top.v m0.v m1.v m2.v 
+colcsv top_tabel.csv 
+vim  top_tabel.csv 
+colcsv top_tabel.csv 
+vim  top_tabel.csv 
+
+colcsv top_tabel.csv 
+python parse.verilog.py top top.v m0.v m1.v m2.v 
+colcsv top_tabel.csv 
+python parse.verilog.py top top.v m0.v m1.v m2.v 
+colcsv top_tabel.csv 
+grep ",(I)" top_tabel.csv 
+grep -e ",(I)" -e ",(O)" top_tabel.csv 
+grep -e ",(I)" -e ",(O)" top_tabel.csv  | colcsv
+tmux
+grep -e ",(I)" -e ",(O)" top_tabel.csv  | colcsv
+python parse.verilog.py top top.v m0.v m1.v m2.v 
+colcsv top_tabel.csv 
+python parse.verilog.py top top.v  m2.v 
+python parse.verilog.py top top.v  m2.v  m1.v
+colcsv top_tabel.csv 
+cd ..
+l
+cp -r  wrapVerilog/* wapVerilog/
+cd wapVerilog/
+python parse.verilog.py top top.v  m2.v  m1.v
+cd ..
+l
+diff wapVerilog/top_tabel.csv wrapVerilog/top_tabel.csv 
+cd wapVerilog/
+l
+ll
+git status
+python parse.verilog.py AIMG4MLBRRP AIMG4MLBRRP.v
+ll
+ll -rt
+colcsv AIMG4MLBRRP_
+colcsv AIMG4MLBRRP_tabel.csv 
+cat AIMG4MLBRRP_tabel.csv
+vim AIMG4MLBRRP.v
+rm AIMG4MLBRRP*
+l
+ll
+rm top_tabel.csv 
+python parse.verilog.py top top.v  m2.v 
+python parse.verilog.py top top.v  m0.v m1.v m2.v
+colcsv top_tabel.csv 
+colcsv top_tabel.csv  
+grep ":m2" top_tabel.csv 
+grep ":m2" top_tabel.csv  | colcsv 
+grep ":m1" top_tabel.csv  | colcsv 
+grep ",i1:m1" top_tabel.csv  | colcsv 
+peco
+ll
+git diff
+git diff --stat
+git commit -a -m "version of hierarchy check"
+git log
+git add m2.v
+git commit -a -m "add m2.v"
+git status
+git status | grep -v pyc
+l
+git checkout master 
+git log
+git lga
+git merge dev-range 
+git lga
+git push origin master
+exit
+cd myStorage
+mkdir fju_jissen
+cd fju_jissen
+mkdir memo_C.md
+rmdir memo_C.md
+touch memo.md
+exit
+ll
+cd myStorage
+l
+mkdir patent_reorder
+cd patent_reorder
+touch memo.md
+exit
+sudo apt-get update && sudo apt-get upgrade 
+ll
+cd
+ll
+vim setup.ubuntu.sh 
+pip
+vim hs_err_pid18255.log 
+vim setup.ubuntu.sh
+ll | grep env
+ll | grep py
+ll
+exit
+cd dev/
+cd ..
+ll
+cd ../doc/
+ll
+vim bookmarks_2018_09_14.html 
+exit
+ll
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR 
+ll
+pip fre
+pip
+ll
+source ~/.bashrc
+ll
+python
+ll
+exit
+spyder 
+exit
+ll
+mkdir AttentionIsAllYouNeed
+cd AttentionIsAllYouNeed
+ll
+mkdir src 
+cd src/
+ll
+git clone https://github.com/soskek/attention_is_all_you_need.git 
+ll
+cd attention_is_all_you_need/
+ll
+sh download_wmt.sh 
+ll
+df -h .
+ll
+cd ..
+ll
+rm -rf attention_is_all_you_need/ 
+git clone https://github.com/soskek/attention_is_all_you_need.git 
+ll
+cd ..
+ll
+cd ..
+ll
+cd myStorage
+lkl
+ll
+mv ~/AttentionIsAllYouNeed/ .
+ll
+cd AttentionIsAllYouNeed/
+ll
+sudo chown ryotakata
+chown --help
+chown -R  ryotakata ./ 
+ll
+sudo chown -R  ryotakata ./ 
+kk
+ll
+sudo chown -R  ryotakata ./src/
+ll
+sudo chown -hR  ryotakata ./src/
+l
+sudo chown -hR  ryotakata ./src
+sudo chown -hR  ryotakata ./
+ll
+cd ..
+ll
+cd AttentionIsAllYouNeed/
+ll
+cd src/
+ll
+cd ..
+ll
+ll ~
+ll ~/tmp/
+cd ..
+ll
+sudo chown -hR  ryotakata ./AttentionIsAllYouNeed/
+ll
+sudo chown -hR  ryotakata:ryotakata ./AttentionIsAllYouNeed/
+ll
+cd AttentionIsAllYouNeed/
+ll
+cd src/
+ll
+cd attention_is_all_you_need/
+ll
+sh download_wmt.sh  
+df -h
+df -h .
+fg 
+ll
+df -h .
+du -h .
+du -hs .
+ll
+ll d
+ll dev/
+ll
+vim download_wmt.sh 
+ll fr
+ll -rt
+head europarl-v7.fr-en.fr 
+head europarl-v7.fr-en.en 
+ll
+spyder 
+tmux
+exit
+ll pyenv
+ll
+ff .
+exit 
+-rwxrwxrwx 1 root root     3420  7月 12  2017 sequence.plantuml*
+cd attention_is_all_you_need/
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR
+pip install nltk
+k
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR
+pip install nltk progressbar 
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR
+ll
+find ./ -name "europarl-v7.fr-en.en"
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i ./  -o SAVE_DIR
+
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR
+mkdir SAVE_DIR 
+ln -s dev/ DATA_DIR 
+ll
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR
+unlink DATA_DIR 
+mkdir DATA_DIR 
+cp europarl-v7.fr-en.en DATA_DIR/
+ll
+cp europarl-v7.fr-en.fr DATA_DIR/
+ll DATA_DIR/
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR 
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i dev  -o SAVE_DIR 
+cp europarl-v7.fr-en.en dev/
+cp europarl-v7.fr-en.fr dev/
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i dev  -o SAVE_DIR 
+exit
+ll
+diff latest.setup.ubuntu.sh setup.ubuntu.sh
+diff latest.setup.ubuntu.sh setup.ubuntu.sh | less
+diff latest.setup.ubuntu.sh setup.ubuntu.sh 
+diff setup.ubuntu.sh latest.setup.ubuntu.sh 
+sdiff setup.ubuntu.sh latest.setup.ubuntu.sh 
+sdiff setup.ubuntu.sh latest.setup.ubuntu.sh  | less
+ll
+mv latest.setup.ubuntu.sh  setup.ubuntu.sh 
+bash setup.ubuntu.sh 
+vim setup.ubuntu.sh 
+ll
+ll | grep env
+grep atom setup.ubuntu.sh
+sudo add-apt-repository ppa:webupd8team/atom 
+bash setup.ubuntu.sh 
+atsudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 6D1D8367A3421AFB]
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 6D1D8367A3421AFB
+bash setup.ubuntu.sh 
+vim setup.ubuntu.sh
+bash setup.ubuntu.sh 
+vim setup.ubuntu.sh
+bash setup.ubuntu.sh 
+ll
+ll .bashrc
+ll /home/ryotakata/dotfiles/.bashrc 
+whoami i
+whoami 
+ll
+vim .bashrc
+vim setup.ubuntu.sh 
+bash 1$
+bash setup.ubuntu.sh
+vim .bashrc
+source .bashrc
+pyenv  
+vim setup.ubuntu.sh
+bash setup.ubuntu.sh 
+cd myStorage
+ll
+cd AttentionIsAllYouNeed/
+ll
+cd src/
+ll
+tmux 
+exit
+ll
+exit
+gtar avxf Typora-linux-x64.tar.gz  
+tar avxf Typora-linux-x64.tar.gz  
+cd Typora-linux-x64/
+ll
+ll locales/c
+ll locales/
+ll
+ls
+./Typora  --help
+./Typora  ~/myStorage/AttentionIsAllYouNeed/doc/main.md 
+bg
+tmux
+vim main.md
+vim main.html 
+exit
+ll
+cd
+cd myStorage/AttentionIsAllYouNeed/
+ll
+cd doc/
+ll
+git init
+ll
+git add main.md 
+open 1706.03762.pdf  
+vim main.md
+cd figures/
+ll
+mv ohseq2seq.png  Seq2SeqTop.png 
+mv se2se.png  HighLevelView.png 
+ll
+cd ..
+ll
+markdown2html main.md
+ll -rt
+open main.md.html 
+exit
+`sudo dpkg -i cuda-repo-ubuntu1604_9.0.176-1_amd64.deb`
+sudo dpkg -i cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
+ll -rt
+rm cuda-repo-ubuntu1604_9.0.176-1_amd64.deb  
+sudo dpkg -i cuda-repo-ubuntu1404_10.0.130-1_amd64.deb 
+sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/7fa2af80.pub 
+sudo apt-get updat && sudo apt install cuda 
+sudo apt-get update && sudo apt install cuda 
+exit 
+git diff
+git lga
+git diff master 
+git diff --stat
+ll
+python -V
+python 
+python -V
+ll
+ll dev/
+ll
+ll DATA_DIR/
+ll SAVE_DIR/
+ll dev/
+ll dev/ | less
+;;
+ll
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR
+pip install chainer numpy cupy nltk progressbar 
+pip install --upgrade pip
+pip install chainer numpy cupy nltk progressbar 
+pip install chainer numpy  nltk progressbar 
+pip install cupy-cuda90
+python -V
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR
+pip install progressbar2 
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR
+ll dev/
+ll
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR
+ll
+kk DATA_DIR/
+ll DATA_DIR/
+l DATA_DIR/
+mv DATA_DIR/ dev
+mkdir DATA_DIR
+cd DATA_DIR
+ll
+cd ..
+ll
+mv dev/ DATA_DIR/
+ll DATA_DIR/
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR
+cd DATA_DIR/
+ll
+mv dev/europarl-v7.fr-en.en ./ 
+mv dev/europarl-v7.fr-en.fr ./
+ll
+cd ..
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR
+pip freeze
+pip freeze | grep cu
+pip install cupy-cuda91
+pip install cupy-cuda10
+pip install cupy-cuda100
+pip install 
+pip install cupy-cuda10 
+pip install cupy
+pip freeze | grep cu
+pip uninstall cupy-cuda90 
+pip freeze | grep cu
+pip install cupy
+exit
+ll
+cd
+ll
+vim .bashrc 
+vim dotfiles/bashrc_ryotakata-ubuntu00 
+cd dotfiles/
+ll
+grep -r cuda ./
+ll
+ll /usr/local/
+ll /usr/local/cuda
+ll
+env
+env | grep cuda
+vim bashrc_ryotakata-ubuntu00  
+exit
+ll /usr/local/cuda
+exit
+cd
+ll
+pyenv 
+pyenv  local 
+pyenv install 
+pyenv install  --list
+pyenv install  --list | grep anaconda
+pyenv install anaconda3-5.2.0 
+pyenv global
+pyenv global --help
+pyenv global anaconda3-5.2.0 
+ll
+cd myStorage/AttentionIsAllYouNeed/src/attention_is_all_you_need/
+ll
+cd DATA_DIR/
+ll
+head europarl-v7.fr-en.en 
+head europarl-v7.fr-en.fr 
+head europarl-v7.fr-en.en 
+head europarl-v7.fr-en.fr 
+cd ..
+ll
+find ./ -name "newstest2013.en" 
+ll DATA_DIR/
+ll DATA_DIR/ dev/
+ll
+ll DATA_DIR/ dev/ | less
+ll
+diff DATA_DIR/europarl-v7.fr-en.en  ./europarl-v7.fr-en.en 
+rm -rf DATA_DIR/ 
+mv dev/ DATA_DIR/ 
+ll
+top
+env | grep PATH
+ll /home/ryotakata/myStorage/local/bin 
+ll
+source ~/.bashrc
+python -B
+python -V
+nvidia-smi 
+exit
+ll
+spyder 
+ll
+spyder 
+ll
+exit
+ll
+cd myStorage/AttentionIsAllYouNeed/
+ll
+cd src/attention_is_all_you_need/
+ll
+tmux 
+exit
+nvidia-smi 
+exit
+conda --help
+conda update && conda upgrade 
+conda update --prefix /home/ryotakata/.pyenv/versions/anaconda3-5.2.0 anaconda
+exit
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR -j 1
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR 
+ll
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR 
+ll
+ll SAVE_DIR/
+ll
+exit
+ll
+cp train.py tmp.tkt.py 
+ll
+cd SAVE_DIR/
+ll
+ll log 
+head log 
+less log 
+nvidia-smi 
+git diff
+ll
+vim log 
+ll
+less log 
+ll
+cd ..
+ll -rt
+df -h .
+ll -rt 
+ll tkt.SAVE_DIR/
+nvidia-smi 
+git diff
+exit
+PYTHONIOENCODING=utf-8 python -u train.py -g=0 -i DATA_DIR -o SAVE_DIR
+nvidia-smi 
+spyder 
+spyder  
+ll
+vim train.py
+ll
+spyder  
+conda upgrade spyder
+spyder  
+exit
+nvidia-smi 
+tmux
+cd myStorage/AttentionIsAllYouNeed/src/attention_is_all_you_need/
+ll
+tmux
+exit
+cd myStorage/AttentionIsAllYouNeed/src/attention_is_all_you_need/
+ll
+python -V
+tmux
+ll
+git diff
+spyder 
+ll
+cd
+source .bashrc
+source .bash_profile
+python -B
+python -V
+python 
+exit 
+python pseudo_batch_normalization.py 
+cat equation.md 
+vim ~/.bash_aliases 
+markdown2html equation.md 
+ff equation.md.html 
+cat  ~/.bash_aliases 
+pandoc -f markdown -t html5  --mathjax equation.md -o a.html
+ff a.html
+pandoc -f markdown -t html5  --mathjax=https://gist.githubusercontent.com/yohm/0c8ed72b6f18948a2fd3/raw/624defc8ffebb0934ab459854b7b3efc563f6efb/dynoload.js $1 -o $1.html  equation.md -o a.html
+ff a.html
+pandoc -f markdown -t html5 -s --mathjax equation.md -o a.html && ff a.html
+exit 
+exit 
+cd myStorage
+cd pseudo_batch_norm/
+ll
+cd ..
+ll
+mv pseudo_{batch_norm,batch_normalization}
+cd pseudo_{batch_norm,batch_normalization}
+cd pseudo_batch_normalization/
+ll
+basename
+dirnaem
+dirnaem .
+dirname
+dirname .
+dirname pwd
+dirname `pdw
+`
+dirname `pwd`
+touch pseudo_batch_normalization.py
+ll
+pyhon -v
+tmux
+exit 
+exit
+spyder
+source ~/.bash_profile
+
+python
+ll
+python qiita.py 
+python -V
+python qiita.py 
+spyder
+ll
+python qiita.py 
+vim qiita.py 
+python qiita.py 
+vim qiita.py 
+python qiita.py 
+nvidia-
+nvidia-s
+nvidia-smi 
+exit
+ll
+vim qiita.py 
+exit
+ll
+ll -r
+rm .qiita.py.swo
+exit
+touch qiita.py 
+ll
+tmux
+tmux -2
+exit
+l;l
+vim qiita.py 
+python qiita.py 
+nvidia-smi
+python qiita.py 
+python qiita.py
+vim qiita.py 
+exit
+python qiita.py 
+exit
+spyder
+python qiita.py 
+exit
+ll
+cat qiita.py 
+vim qiita.py 
+exit
+python qiita.py 
+gedit qiita.py 
+python qiita.py 
+exit
+tmux- 2
+tmux -2
+exit
+python -V
+spyder
+vim pseudo_batch_normalization.py 
+fg
+exit 
+vim pseudo_batch_normalization.py 
+ll
+mv tmp tmp.puy
+mv tmp.puy tmp.py 
+cp pseudo_batch_normalization.py  tmp.py 
+python pseudo_batch_normalization.py 
+nvidia-
+nvidia-s
+nvidia-smi 
+python pseudo_batch_normalization.py 
+python qiita.py 
+python pseudo_batch_normalization.py 
+python pseudo_batch_normalization.py  | tee cpu.log
+python pseudo_batch_normalization.py  | tee gpu.log
+python pseudo_batch_normalization.py  | tee cpu.log
+python pseudo_batch_normalization.py  | tee gpu.log
+ll
+vim tmp.py 
+vim pseudo_batch_normalization.py 
+mv pseudo_batch_normalization.py  chainer_function_batch_normalization.py 
+vim chainer_function_batch_normalization.py
+exot 
+exit 
+ll
+diff cpu.log gpu.log 
+vimdiff cpu.log gpu.log 
+python pseudo_batch_normalization.py | tee gpu.log 
+python pseudo_batch_normalization.py | tee cpu.log 
+vimdiff cpu.log gpu.log 
+exit 
+ll
+ll -rt
+cd myStorage
+ll -rt
+ll
+cd pseudo_batch_normalization/
+ll
+git lga
+vim equation.md
+cat qiita.py 
+っｌll
+ll
+cat pseudo_batch_normalization.py 
+tmux -2 
+exit 
+cd Desktop/
+lkl
+mv onestio.pdf onestop.pdf 
+exit 
+ll
+cd ..
+ll
+grep -r "__mian__" .
+python h
+ll
+cd watchdog/
+ll
+python hoge.py  
+chmod +x main.sh 
+./main.sh 
+chmod +x main.sh 
+./main.sh 
+python hoge.py 
+python -V
+python hoge.py 
+./main.sh 
+kill 18537 
+exit 
+./main.sh 
+exit
+./main.sh 
+kill 31078
+./main.sh 
+exit
+./main.sh 
+exit
+cd myStorage
+ll
+mkdir watchdog
+cd watchdog 
+ll
+vim hoge.py main.sh 
+tmux -2 
+exit
+cd my
+cd 
+cd myStorage
+ll
+rm -rf watchdog/
+rm -rf watchdog/.fuse_hidden000019
+rm -rf watchdog/*
+Y
+rm -rf watchdog/
+rm -rf watchdog/.fuse_hidden0000197e0000000b 
+rm -rf watchdog/.fuse_hidden0000197e0000000d 
+rm -rf watchdog/.fuse_hidden0000198d0000000c 
+;;l
+ll
+ll watchdog/
+ps uf
+kill 3377 
+ll
+ll w
+ll watchdog/
+rm -rf watchdog/
+rm -rf watchdog/.fuse_hidden000019*
+ll
+ll wa
+ll watchdog/
+ll
+psu f
+ps uf
+kill 4841 18692 
+ll
+ll watchdog/
+cd ta
+cd watchdog/
+ll
+rm .fuse_hidden000019
+rm .fuse_hidden000019*
+ll
+ps uf
+kill 18692 
+kill 6062 
+ll
+ps uf
+kill 6770 31018 
+ll
+ps uf
+ll
+cd ..
+rm watchdog/
+ll
+rm watchdog/ -rf
+ll
+exit
+./timeout.sh 
+git init
+ll
+git add hoge.py hoge.sh main.sh  timeout.sh 
+ll
+git commit -a -m "first commit"
+./main.sh 
+killall python
+./timeout.sh 
+ll
+./timeout.sh 
+exit
+timeout -h
+timeout --help
+l l
+ll
+ls l
+ll
+cd ..
+ll
+cd -
+git lga
+git pull
+cd ..
+rm -rf timeout/ 
+mkdir tmp 
+cd tmp/
+ll
+mkdir bnFwdTrain_181224
+cd bnFwdTrain_181224
+ll
+tmux -2 
+pwd
+exit
+ll
+rm .hoge.py.swp .timeout.sh.swp  
+ll
+ll watchdog/
+rm -rf watchdog/
+ll
+vim hoge.py 
+cp main.sh  hoge.sh
+vim hoge.
+vim hoge.sh 
+vim timeout.sh 
+ll
+vim main.sh 
+git lga
+git rebase -i d17e799 
+ll
+vim main.sh 
+git commit -a --amend 
+git rebase --continue 
+ll
+git lga
+
+git lg
+git lga
+git log --pretty=fuller
+ll
+./main.sh 
+vim main.sh 
+ll
+chmod -x hoge.py 
+ll
+git df
+git diff
+git commit -a --amend 
+git lga
+git remote add origin https://github.com/takata150802/bash_timeout.git
+git push -u origin master
+timeout -help
+timeout --help
+exit
+kill -9 18741 
+kill -- 18743 
+kill 20965 
+kill 20962
+kill 21459
+git df
+git diff
+git add timeout.sh 
+git commit -m "test timeout"
+git commit --amend -m "test tgt finished"
+./timeout.sh 
+./timeout.sh  &
+./timeout.sh  &; ./timeout.sh &; ./timeout.sh &; ./timeout.sh 
+./timeout.sh  &;
+./timeout.sh  &
+git df
+git diff
+git checkout timeout.sh
+ll
+exit
+./timeout.sh 
+kill 18003
+kill 18005 
+./timeout.sh 
+kilall python
+killallpython
+killall python
+./timeout.sh 
+./timeout.sh  &
+./timeout.sh 
+kill all python
+killall python
+./timeout.sh 
+killall python
+./timeout.sh 
+git commit -a -m "test timeout"
+:w
+./timeout.sh 
+./timeout.sh &
+./timeout.sh ; ./timeout.sh ; ./timeout.sh ; ./timeout.sh 
+ps 
+./timeout.sh ; ./timeout.sh ; ./timeout.sh ; ./timeout.sh 
+exit
+python hoge.py 
+while true; do ps uf; sleep 1; clear; done
+exit
+cd myStorage
+ll
+cd watchdog/
+ll
+cd ..
+ll
+mv watchdog ~/timeout 
+cp -r  watchdog ~/timeout 
+ll
+rm -rf watchdog/ 
+ll watchdog/
+cd
+tmux -2
+cd t
+cd timeout/
+tmux -2
+exit
+ll /usr/bin/e
+ll /usr/bin/env
+/usr/bin/env
+/usr/bin/env python
+/usr/bin/env 
+/usr/bin/env | grep py
+/usr/bin/env 
+which /usr/bin/env 
+/usr/bin/env  --help
+which `/usr/bin/env  python`
+exit 
+exit
+date
+csh
+sh
+l
+conda update --prefix /home/ryotakata/.pyenv/versions/anaconda3-5.2.0 anaconda
+exit 
+ll
+ll sample_00/
+ll sample_00/alpha.txt 
+vim sample_00/alpha.txt
+ll sample_00/
+sudo apt-get install tree
+ll
+cat sample_00/alpha.txt 
+cat sample_00/beta.txt 
+cat sample_00/bnScale.txt 
+cat sample_00/alpha.txt 
+cat sample_00/b
+cat sample_00/beta.txt 
+cat sample_00/alpha.txt 
+exit
+cd  #!/bin/bash
+function main () {     SCRIPT_PATH=$(cd $(dirname $0) && pwd);     SCRIPT_NAME=$(basename $0);          ./hoge.sh &     TGT_PID=$!;     sleep 5 &     TIM_PID=$!;          err_msg=$(
+    echo "${SCRIPT_PATH}/${SCRIPT_NAME}: "
+    echo "Process ${TGT_PID} will be killed by ${SCRIPT_NAME}."
+    );          while true; do         kill -0 ${TGT_PID};         if [ ! $? -eq 0 ]; then             killtree ${TIM_PID} KILL;             exit;         fi;         kill -0 ${TIM_PID};         if [ ! $? -eq 0 ]; then             killtree ${TGT_PID} KILL;             echo ${err_msg};             exit 1;         fi;         sleep 1;     done;     wait     exit; }
+### kill all members of a process group
+function killtree() {     if [ $# -eq 0 -o $# -gt 2 ]; then         echo "Usage: $(basename $0) <pid> [signal]";         exit 1;     fi;     local _pid=$1;     local _sig=${2:-TERM};     kill -stop ${_pid} # needed to stop quickly forking parent from producing child between child killing and parent killing;     for _child in $(ps -o pid --no-headers --ppid ${_pid}); do         killtree ${_child} ${_sig};     done;     kill -${_sig} ${_pid}; }
+ll -rt
+cd tmp/
+ll
+cd bnFwdTrain_181224/
+ll
+tmux -2
+exit 
+./timeout.sh 
+lll
+cp timeout.sh hoge.py
+vim hoge.py 
+ll
+vim hoge.py 
+ll
+find ../ -name "*.sh"
+cp ../iverilog/autoconf.sh .
+vim autoconf.sh 
+mv autoconf.sh  main.sh 
+vim main.sh 
+vim main.sh  hoge.py 
+python hoge.py 
+vim hoge.py 
+vim main.sh  hoge.py 
+kill hoge.py
+kill 19418 
+cp main.sh timeout.sh
+vim timeout.sh  
+watchdog
+kill -L
+kill -l
+timeout
+timeout --helop
+timeout --help
+python
+ll
+python mt
+python tmp.py 
+git df
+git diff
+git commit -a -m 
+git commit -a -m "add renormailize"
+ps uf
+while ture; ps uf; sleep 1; claer; done
+while ture; do ps uf; sleep 1; claer; done
+while true; do ps uf; sleep 1; claer; done
+while true; do ps uf; sleep 1; clear; done
+while true; do python hoge.py; sleep 1; clear; done
+ll
+vim main.py
+ll
+while true; do python main.py; sleep 3 clear; done
+while true; do python main.py; sleep 3; clear; done
+while true; do python main.py; tree; sleep 3; clear; done
+ll
+cp main.py tmp.py
+git init
+git add main.py 
+git commit -a -m "first commit"
+vim tmp.py 
+exit 
+vim dotfiles/bash_profile_ryotakata-ubuntu00 
+env | grep LANG
+grep -r LANG dotfiles/
+grep -r LANG .bashrc
+grep -r LANG .bash_profile
+exit 
+export LC_ALL=en_US.utf8 
+atom duo30.md 
+export LANG=en_US.utf8 
+atom duo30.md 
+exit
+vim japanese_language_pack_thunderbird-52.0-tb.xpi 
+rm japanese_language_pack_thunderbird-52.0-tb.xpi 
+exit 
+locale -a | less 
+locale
+hunspell
+sudo apt-get install hunspell
+
+hunspell -D
+hunspell -help
+hunspell --help
+sudo apt-get install hunspell-tools 
+hunspell-tools
+hunspell
+hunspell --help
+atom duo30.md 
+exit 
+export LANG=ja_JP.utf8 
+LANG=en_US.utf8  atom duo30.md
+atom duo30.md 
+exit 
+locate
+locale
+local -a
+locale -a
+locale -a | less
+vim .bashrc
+vim .bash_profile
+tmux
+ll
+cd myStorage
+ll
+cd anki/
+ll
+atom duo30.md 
+ps uf
+ps ufa
+ps fu
+ll
+tmux -2 
+exit 
+cd tmp/
+cd batchNormQiita/
+ll
+git init
+git add draft.md
+git commit -a -m "first commit"
+git df
+git diff
+git commit -a -m "add db, dg & dy"
+git diff
+git commit -a -m "replace $$ -> ```math "
+git commit -a -m "replace $$ -> \`\`\`math "
+git lg
+git df
+git dfiff
+git diff
+git difff
+git diff
+git commit -a -m "fix typo"
+git diff
+git df
+git diff
+git commit -a -m "fixtypo"
+exit
+vim main.py 
+exit 
+python main.py 
+cd ..
+rm -rf img_crawler/ 
+exit 
+vim img_c/main.py
+mv img_c{,}rawler 
+mv img_c{,rawler}
+ll
+cd img_crawler/
+ll
+python main.py 
+vim main.py 
+python2 main.py 
+python2
+python2.7
+python2.7.9
+pyenv 
+pyenv list
+pyenv versions
+pyenv local 2.7.9 
+ll
+python main.py 
+pip install bs4
+python main.py 
+ll
+rm -rf Pictures/
+vim main.py 
+python main.py 
+vim main.py 
+rm -rf Pictures/
+ll
+python main.py 
+ls
+rm -rf Pictures/
+vim main.py 
+tmux -2
+exit 
+cd
+cd Do
+cd Downloads/
+ls
+ll -rrt
+ll | grep cudnn
+ls
+mkdir work.cudnn_install
+mv libcudnn7-dev_7.4.2.24-1+cuda10.0_amd64.deb  work.cudnn_install 
+mv libcudnn7-doc_7.4.2.24-1+cuda10.0_amd64.deb   work.cudnn_install 
+ll -rt
+ll -rt | grep cudnn
+mv libcudnn7_7.4.2.24-1+cuda10.0_amd64.deb  work.cudnn_install/
+ll -rt | grep cudnn
+cd work.cudnn_install/
+ls
+sudo dpkg -i libcudnn7_7.0.3.11-1+cuda9.0_amd64.deb 
+sudo dpkg -i libcudnn7_7.4.2.24-1+cuda10.0_amd64.deb  
+
+ll
+sudo dpkg -i libcudnn7-doc_7.4.2.24-1+cuda10.0_amd64.deb 
+which nvcc
+nvidia-smi 
+~ /usr/local/cuda-10.0/bin/cuda-install-samples-10.0.sh  .
+bash  /usr/local/cuda-10.0/bin/cuda-install-samples-10.0.sh  .
+ll
+cd NVIDIA_CUDA-10.0_Samples/
+ls
+make
+ls
+ll
+ll -rt
+cd 0_Simple/
+ls
+cd ..
+tree
+tree | less
+./2_Graphics/volumeFiltering/volumeFiltering 
+./2_Graphics/volumeRender/volumeRender 
+./2_Graphics/simpleTexture3D/simpleTexture3D 
+ls
+ll
+ll 1_Utilities/
+ll 1_Utilities/bandwidthTest/bandwidthTest
+1_Utilities/bandwidthTest/bandwidthTest
+ll 1_Utilities/
+ll 1_Utilities/UnifiedMemoryPerf/UnifiedMemoryPerf 
+1_Utilities/UnifiedMemoryPerf/UnifiedMemoryPerf 
+ls
+find ./ -type d
+find ./ -type d | less
+find ./ -type d | sort | less
+ll
+cd bin/x86_64/linux/
+ls
+cd release/
+ll
+ls
+vim matrixMul_kernel64.ptx 
+./simpleTexture3D 
+./template 
+./convolutionFFT2D 
+ls
+./histogram 
+ls
+./randomFog 
+ls
+./scan  
+ls
+./simpleCUBLAS
+./simplePrintf 
+ls
+./simpleAssert
+vim simpleTexture_kernel64.ptx 
+vim matrixMul_kernel64.ptx 
+ls
+cd ,,
+ls
+cd ..
+ll
+cd ../../
+ll
+cd ../
+ll
+cd ..
+ls
+exit
+python
+ld cudnn
+ldd cudnn
+ls
+cd tmp/
+ls
+mkdir cudnn_chainer
+cd cudnn_chainer 
+ll
+vim main.py
+python -V
+tmux -2
+ll
+cd
+cd dotfiles/
+ll
+vim bash_profile_ryotakata-ubuntu00 bashrc_ryotakata-ubuntu00 
+ls
+python main.py 
+pip install --upgrade pip 
+pip install cupy -vvvv 
+python main.py 
+$ pip install -U setuptools pip
+pip install cupy -vvvv 
+python main.py 
+echo $CUDA_PATH
+pip install cupy
+python main.py 
+pip install cupy -U
+python main.py 
+spyder
+env | grep PATH
+env | grep CUDA 
+vim ~/.bash_profile
+vim ~/.bashrc
+top
+ps uf
+nvidia-smi
+top
+pstree 
+ps
+ps uf
+top
+ll
+cd ~/.pyenv/versions/anaconda3-5.2.0/lib/python3.6/site-packages/cupy/cuda/
+l
+vim __init__.py  compiler.py 
+vim __init__.py 
+ll -rt
+ll __pycache__/
+ls
+strings cudnn.cpython-36m-x86_64-linux-gnu.so  
+strings cudnn.cpython-36m-x86_64-linux-gnu.so   | less
+./cudnn.cpython-36m-x86_64-linux-gnu.so 
+ls
+vim cupy_thrust.cu  
+ls
+ls 
+grep -r cudnn
+cd ..
+ls
+grep -r cudnn
+ls
+cd .. 
+ls
+cd cupy
+ls
+cd ..
+cd cupyx/
+ls
+ll
+ll sc
+ll scipy/
+ls
+ll linalg/
+ll linalg/sparse/
+cd ../cupy
+ls
+ll
+ll random/
+ll random/__init__.py 
+vim random/__init__.py 
+ls
+ll core/
+ll
+ll cuda/
+ll cuda/memory
+ll cuda/memory_hook
+ll cuda/memory_hooks
+ls
+ll /usr/local/cuda/bin 
+sudo apt upgrade 
+cuda 
+cuda
+$CUDA_ROOT/nvcc -V 
+nvcc
+nvcc -v
+nvcc -V
+ll
+git lg
+exit 
+cd /home/ryotakata/myStorage/local/
+ll
+cd bin/
+l
+ll
+cd ..
+ll
+cd ..
+tree
+ll
+cd local/
+ll
+tree
+tree | less
+ll
+cd
+ll
+ll | grep local
+cd .local/
+ll
+ll bin/
+ll
+mkdir others/
+mv ~/Downloads/peco_linux_amd64 others/
+ll others/ 
+cd bin/
+ll
+ln -s ../others/peco_linux_amd64/peco .
+ll | peco 
+ll 
+ll  | grep peco 
+ls
+ll -rt
+which spyder 
+ll
+PATH=`pwd`:${PATH}
+export PATH=`pwd`:${PATH}
+which spyder 
+which spyder python
+spyder 
+spyder
+ll
+cd ..
+ll
+cd others/
+ls
+cd ..
+ll
+ll share/
+ll do
+ll
+ll lib/
+ll lib/python2.7/
+ll
+python 
+spyder
+python -V
+pyenv 
+ll
+cd ..
+ll
+cp -r .local{,.bk}
+ll
+cd .local
+ll
+rm -rf bin/ lib/ share/
+mkdir bin 
+cd bin 
+ll
+ln -s ../others/peco_linux_amd64/peco .
+cd ..
+ll | peco
+spyder
+exit 
+ll
+ll /usr/local/
+cd
+ll
+vim .gitconfig 
+ll .gitconfig 
+vim .gitconfig 
+git df
+exit 
+peco
+ll
+exit 
+cudnn
+ll
+nvcc --version
+cudnn
+ll
+ll /usr/local/
+ll
+cd /usr/l
+cd /usr/local/
+ll
+cd lib/
+ll
+cd ..
+ll
+cd 
+cd Downloads/
+ll
+cd work.cudnn_install/
+ll
+cd NVIDIA_CUDA-10.0_Samples/ 
+ll
+cd ..
+env | peco 
+exit 
+vim bashrc_ryotakata-ubuntu00 
+cp bashrc_ryotakata-ubuntu00 a
+vim bashrc_ryotakata-ubuntu00 
+:q
+rm .bashrc_ryotakata-ubuntu00.swp  
+diff bashrc_ryotakata-ubuntu00 a 
+ll /usr/local/cuda-8.0 
+sdiff bashrc_ryotakata-ubuntu00 a 
+vimdiff bashrc_ryotakata-ubuntu00 a 
+git df
+git lga
+git diff
+cp bashrc_ryotakata-ubuntu00{,.bk}
+git df --stat
+git diff --stat
+git df 
+git diff --diff-algorithm=minimal 
+git df
+git df -- .bash_aliases
+git add .bash_aliases 
+git commit -m "add colcsv @ .bash_aliases"
+git df
+vim .bashrc 
+git df
+vim bashrc_ryotakata-ubuntu00
+git df
+git commit -a -m "add pyenv & cudnn7.4.2.24-1+cuda10.0 "
+vim bashrc_ryotakata-ubuntu00
+exit 
+peco
+cd 
+cd dotfiles/
+ll
+vim bashrc_ryotakata-ubuntu00
+eixt 
+exit 
+exit
+exit 
+pcd
+pe
+cd dotfiles/
+pe
+pv
+exit 
+s
+ghq
+s
+tmux list-windows | peco | awk -F':' '{print $1}' | xargs tmux select-window -t
+exit 
+bash
+exit 
+ll
+ll /home/ryotakata/dotfiles/peco/peco-history.sh  
+cd /home/ryotakata/dotfiles/peco/
+ll
+mv {peco-,}history.sh 
+ll
+mv {,select-}history.sh 
+ll
+exit 
+exit
+cd peco/
+ll
+mv {,peco-}select-history.sh 
+mv {,peco-}snippets.sh 
+ll
+mv {,peco-}select-tmux-session.sh 
+ll
+exit 
+ll
+exit 
+vim bashrc_ryotakata-ubuntu00
+grep -r peco
+zle
+print -z
+print -z ls
+ll
+vim bashrc_ryotakata-ubuntu00
+git df
+ll
+exit 
+ll
+pco
+s
+ll
+cd peco/
+ll
+vim peco-history.sh 
+grep -r  SCRI .
+vim peco-snippets.sh 
+exit 
+ll
+vim bashrc_ryotakata-ubuntu00
+exit 
+mkdir peco 
+mv select-tmux-session.sh peco/
+exit 
