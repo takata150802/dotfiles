@@ -27,3 +27,7 @@ set autoindent
 set expandtab
 set shiftwidth=4
 inoremap <silent> jj <ESC>
+
+
+syntax on
+colorscheme molokai
