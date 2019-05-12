@@ -31,3 +31,8 @@ inoremap <silent> jj <ESC>
 
 syntax on
 colorscheme molokai
+set t_Co=256
+hi Comment ctermfg=gray
+
+set cursorline
+highlight CursorLine cterm=underline ctermfg=NONE ctermbg=NONE
