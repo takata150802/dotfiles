@@ -36,3 +36,11 @@ hi Comment ctermfg=gray
 
 set cursorline
 highlight CursorLine cterm=underline ctermfg=NONE ctermbg=NONE
+
+"//------- ctags
+set fileformats=unix,dos,mac
+set fileencodings=utf-8,sjis
+set tags=.tags;${HOME}
+
+
+set modeline
