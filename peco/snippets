@@ -1997,4 +1997,4 @@ vim bashrc_ryotakata-ubuntu00
 exit 
 mkdir peco 
 mv select-tmux-session.sh peco/
-exit 
+cat ${TMP} | sort | uniq -c | sort -nr
